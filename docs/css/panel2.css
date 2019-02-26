@@ -1,0 +1,123 @@
+                        .e-item{
+                            margin:10px;
+
+                        }
+
+						.panel2-grid-container {
+						  height: 100%;/*母 div height 先寫好，可以 > 100%，這樣就出現 vscroll ，無妨*/
+						  display: grid;
+						  grid-template-columns: 0.3fr 0.7fr;
+						  
+                          /*注意，已知行數，直接用 fr 分配行佔高*/
+                          grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+						  grid-template-areas: "panel2-header1 panel2-header1"
+                                                "panel2-header2 panel2-header2"
+						                       "panel2-block11 panel2-block12"
+                                               "panel2-block21 panel2-block22"
+                                               "panel2-block31 panel2-block32"
+                                               "panel2-block41 panel2-block42"
+                                               ;
+						  grid-column-gap: 10px;
+						  grid-row-gap: 15px;
+                          
+
+                            
+                        }
+						
+						.panel2-grid-item{
+						  position: relative;
+						}
+						
+						.panel2-grid-item div {
+						  color: #ff0000;
+						  font-size: 30px;
+                          line-height: 40px;  
+						  
+                          align-self:center;
+						}
+						
+						.panel2-header1 {
+						 /* background-color: #8BC574;*/
+						  grid-area: panel2-header1;
+						  
+						  
+						  display: flex;
+						  justify-content: center;
+						  align-content: center;
+						  
+						}
+						.panel2-header2 {
+						 /* background-color: #8BC574;*/
+						  grid-area: panel2-header2;
+						  
+						  
+						  display: flex;
+						  justify-content: center;
+						  align-content: center;
+						  
+						}				
+						
+                        #panel2-block11{
+						 /* background-color: #C57474;*/
+						  grid-area: panel2-block11;
+						
+						  display: flex;
+						  justify-content: center;
+						  align-content: center;
+						}
+                        #panel2-block12{
+						 /* background-color: #C57474;*/
+						  grid-area: panel2-block12;
+						
+						  display: flex;
+						  justify-content: center;
+						  align-content: center;
+						}
+                        #panel2-block21{
+						 /* background-color: #C57474;*/
+						  grid-area: panel2-block21;
+						
+						  display: flex;
+						  justify-content: center;
+						  align-content: center;
+						}
+                        #panel2-block22{
+						 /* background-color: #C57474;*/
+						  grid-area: panel2-block22;
+						
+						  display: flex;
+						  justify-content: center;
+						  align-content: center;
+						}
+                        #panel2-block31{
+						 /* background-color: #C57474;*/
+						  grid-area: panel2-block31;
+						
+						  display: flex;
+						  justify-content: center;
+						  align-content: center;
+						}
+                        #panel2-block32{
+						 /* background-color: #C57474;*/
+						  grid-area: panel2-block32;
+						
+						  display: flex;
+						  justify-content: center;
+						  align-content: center;
+						}
+                        #panel2-block41{
+						 /* background-color: #C57474;*/
+						  grid-area: panel2-block41;
+						
+						  display: flex;
+						  justify-content: center;
+						  align-content: center;
+						}
+                        #panel2-block42{
+						 /* background-color: #C57474;*/
+						  grid-area: panel2-block42;
+						
+						  display: flex;
+						  justify-content: center;
+						  align-content: center;
+						}

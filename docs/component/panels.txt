@@ -1,0 +1,14 @@
+<div id="panel1" class="panel">
+
+                
+</div>
+
+<div id="panel2" class="panel">
+
+                
+</div>
+
+<div id="panel3" class="panel">
+
+                
+</div>

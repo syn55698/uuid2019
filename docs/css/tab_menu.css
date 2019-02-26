@@ -1,0 +1,21 @@
+	.tab_button {
+        background-color:transparent;
+        color:white;
+        border:none;
+        font-size:50px;
+        font-family: fantasy;
+      }
+	.tab_button:hover {
+        background-color:transparent;
+        color:red;
+        border:none;
+        font-size:50px;
+        font-family: fantasy;
+      }
+	.tab_button_active{
+        background-color:transparent;
+        color:red;
+        border:none;
+        font-size:50px;
+        font-family: fantasy;
+      }

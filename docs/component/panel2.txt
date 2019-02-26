@@ -1,0 +1,76 @@
+        <div id="panel2-grid-container" class="panel2-grid-container">
+            <div id="panel2-header1" class="panel2-header1 panel2-grid-item">
+                <div>Not proficient</div>
+            </div>
+
+            <div id="panel2-header2" class="panel2-header2 panel2-grid-item">
+                <div>Just keep on Programming</div>
+            </div>
+
+            <div id="panel2-block11" class="panel2-grid-item">
+                <div>Basic</div>
+
+            </div>
+
+            <div id="panel2-block12" class="panel2-grid-item">
+                <div>
+                    <span class="e-item">C++</span>
+                    <span class="e-item">Java</span> 
+                    <span class="e-item">C#</span> 
+                    <span class="e-item">Python</span>
+                </div>
+            </div>
+
+            <div id="panel2-block21" class="panel2-grid-item">
+                <div>Web Frontend</div>
+                
+            </div>
+
+            <div id="panel2-block22" class="panel2-grid-item">
+                <div>
+                        <span class="e-item">HTML5</span> 
+                        <span class="e-item">CSS3</span> 
+                        <span class="e-item">JavaScript</span> 
+                    
+                    <br>
+                        <span class="e-item">Bootstrap</span> 
+                        <span class="e-item">Semantic-ui</span> 
+                    <br>
+                        <span class="e-item">jQuery</span> 
+                        <span class="e-item">React</span> 
+                        <span class="e-item">Phaser</span>
+                </div>
+            </div>
+
+            <div id="panel2-block31" class="panel2-grid-item">
+               <div>Web Backend</div>
+                
+            </div>
+
+            <div id="panel2-block32" class="panel2-grid-item">
+                <div>
+                       <span class="e-item">PHP</span> 
+                        <span class="e-item">Laravel</span> 
+                    <br>
+                        <span class="e-item">ASP.Net</span> 
+                        <span class="e-item">Django</span> 
+                        <span class="e-item">Flask</span> 
+                    <br>
+                        <span class="e-item">Node.js(Express)</span> 
+                        <span class="e-item">JavaEE</span>
+                    </div>
+            </div>
+
+            <div id="panel2-block41" class="panel2-grid-item">
+                <div>Database SQL</div>
+                
+            </div>
+
+            <div id="panel2-block42" class="panel2-grid-item">
+                <div>
+                    <span class="e-item">MySQL</span> 
+                    <span class="e-item">MSSQL</span>
+                </div>
+                
+            </div>
+        </div>

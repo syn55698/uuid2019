@@ -1,0 +1,35 @@
+        <div id="panel2-grid-container" class="panel2-grid-container">
+            <!--
+            <div id="panel2-header-empty" class="panel2-header-empty panel2-grid-item">
+                
+            </div>
+            -->
+            <div id="panel2-header1" class="panel2-header1 panel2-grid-item">
+                <div>Not proficient</div>
+            </div>
+            
+            <div id="panel2-header2" class="panel2-header2 panel2-grid-item">
+                <div>Just keep on Coding</div>
+            </div>
+
+            
+            <div id="panel2-block11" class="panel2-grid-item"></div>
+            <div id="panel2-block12" class="panel2-grid-item"></div>
+            <div id="panel2-block13" class="panel2-grid-item"></div>
+            <div id="panel2-block14" class="panel2-grid-item"></div>
+
+            <div id="panel2-block21" class="panel2-grid-item"></div>
+            <div id="panel2-block22" class="panel2-grid-item"></div>
+            <div id="panel2-block23" class="panel2-grid-item"></div>
+            <div id="panel2-block24" class="panel2-grid-item"></div>
+
+            <div id="panel2-block31" class="panel2-grid-item"></div>
+            <div id="panel2-block32" class="panel2-grid-item"></div>
+            <div id="panel2-block33" class="panel2-grid-item"></div>
+            <div id="panel2-block34" class="panel2-grid-item"></div>
+
+            <div id="panel2-block41" class="panel2-grid-item"></div>
+            <div id="panel2-block42" class="panel2-grid-item"></div>
+            <div id="panel2-block43" class="panel2-grid-item"></div>
+            <div id="panel2-block44" class="panel2-grid-item"></div>
+        </div>

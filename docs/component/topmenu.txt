@@ -1,0 +1,5 @@
+<div id="topmenu" class="ui segment">
+	<button class="tab_button">Home</button>
+  	<button class="tab_button">Profile</button>
+  	<button class="tab_button">Game</button>
+</div>

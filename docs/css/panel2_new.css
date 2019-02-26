@@ -1,0 +1,90 @@
+                        .e-item{
+                            margin:10px;
+
+                        }
+
+						.panel2-grid-container {
+						  height: 100%;/*母 div height 先寫好，可以 > 100%，這樣就出現 vscroll ，無妨*/
+						  display: grid;
+						  grid-template-columns: 0.25fr 0.25fr 0.25fr 0.25fr;
+						  
+                          /*注意，已知行數，直接用 fr 分配行佔高*/
+                          grid-template-rows: 0.5fr 0.5fr 1fr 1fr 1fr 1fr ;
+						  grid-template-areas: 
+                                  
+                                   "panel2-header1 panel2-header1 panel2-header1 panel2-header1"
+                                    "panel2-header2 panel2-header2 panel2-header2 panel2-header2"
+						                       
+                                   "panel2-block11 panel2-block12 panel2-block13 panel2-block14"
+                                               "panel2-block21 panel2-block22 panel2-block23 panel2-block24"
+                                               "panel2-block31 panel2-block32 panel2-block33 panel2-block34"
+                                               "panel2-block41 panel2-block42 panel2-block43 panel2-block44"
+                                               ;
+						  grid-column-gap: 10px;
+						  grid-row-gap: 15px;
+                        }
+						.panel2-grid-item{
+						  position: relative;
+						}
+						
+						.panel2-grid-item div,svg {
+						  color:  	#FFA500 ;
+						  font-size: 50px;
+                          line-height: 55px;  
+						  font-family: 'Slabo 27px', serif;
+                          align-self:center;
+						}
+						/*
+            .panel2-header-empty {
+						  background-color: #8BC5ff;
+						  grid-area: panel2-header-empty;
+						  
+						  
+						  display: flex;
+						  justify-content: center;
+						  align-content: center;
+						  
+						}
+						*/
+						.panel2-header1 {
+						  
+						  grid-area: panel2-header1;
+						  
+						  
+						  display: flex;
+						  justify-content: center;
+						  align-content: center;
+						  
+						}
+						.panel2-header2 {
+						  
+						  grid-area: panel2-header2;
+						  
+						  
+						  display: flex;
+						  justify-content: center;
+						  align-content: center;
+						  
+						}	
+
+                        /*以下為4行*/
+
+                        #panel2-block11{grid-area: panel2-block11;display: flex;justify-content: center; align-content: center;}
+                        #panel2-block12{grid-area: panel2-block12;display: flex;justify-content: center; align-content: center;}
+                        #panel2-block13{grid-area: panel2-block13;display: flex;justify-content: center; align-content: center;}
+                        #panel2-block14{grid-area: panel2-block14;display: flex;justify-content: center; align-content: center;}
+
+                        #panel2-block21{grid-area: panel2-block21;display: flex;justify-content: center; align-content: center;}
+                        #panel2-block22{grid-area: panel2-block22;display: flex;justify-content: center; align-content: center;}
+                        #panel2-block23{grid-area: panel2-block23;display: flex;justify-content: center; align-content: center;}
+                        #panel2-block24{grid-area: panel2-block24;display: flex;justify-content: center; align-content: center;}
+
+                        #panel2-block31{grid-area: panel2-block31;display: flex;justify-content: center; align-content: center;}
+                        #panel2-block32{grid-area: panel2-block32;display: flex;justify-content: center; align-content: center;}
+                        #panel2-block33{grid-area: panel2-block33;display: flex;justify-content: center; align-content: center;}
+                        #panel2-block34{grid-area: panel2-block34;display: flex;justify-content: center; align-content: center;}
+
+                        #panel2-block41{grid-area: panel2-block41;display: flex;justify-content: center; align-content: center;}
+                        #panel2-block42{grid-area: panel2-block42;display: flex;justify-content: center; align-content: center;}
+                        #panel2-block43{grid-area: panel2-block43;display: flex;justify-content: center; align-content: center;}
+                        #panel2-block44{grid-area: panel2-block44;display: flex;justify-content: center; align-content: center;}

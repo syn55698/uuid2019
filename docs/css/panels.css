@@ -1,0 +1,17 @@
+.panel{
+    background-color: transparent;
+    
+}
+
+#panel1_description{
+    font-size:60px;
+    line-height: 65px;
+    font-family: 'Slabo 27px', serif;
+    background-color: transparent;
+    border:none;
+    text-align: center;
+    padding:0;
+    margin:0;
+    border:none;
+    color:#FFD700;
+}
